@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: config.siteUrl,
     description: config.siteDescription,
     image: '/images/og.png',
-    pathPrefix: "/biswasvempati"
+    pathPrefix: "/biswasportfolio"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

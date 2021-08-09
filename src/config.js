@@ -4,7 +4,7 @@ module.exports = {
     'Biswas Vempati who is an aspiring Data Scientist, based in Atlanta, who loves learning new things.',
   siteKeywords:
     'Biswas Vempati,Biswas, Vempati, Data Scientist, Machine Learning, Deep Learning',
-  siteUrl: 'https://biswasvempati.github.io/',
+  siteUrl: 'https://github.com/biswasvempati/biswasportfolio',
   siteLanguage: 'en_US',
   name: 'Biswas Vempati',
   location: 'Atlanta,Georgia,United States of America',

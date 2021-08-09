@@ -5,20 +5,20 @@
   "author": "Biswas Vempati <biswasvempati@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/biswasvempati/biswasvempati.github.io"
+    "url": "https://github.com/biswasvempati"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "clean": "gatsby clean"
   },
   "husky": {
     "hooks": {
@@ -54,7 +54,7 @@
     "gatsby-transformer-remark": "^2.6.39",
     "gatsby-transformer-sharp": "^2.3.7",
     "lodash": "^4.17.15",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.24.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -73,7 +73,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "gatsby-remark-code-titles": "^1.1.0",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
     "prettier": "^2.0.4"
